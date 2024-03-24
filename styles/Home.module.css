@@ -1,0 +1,55 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcomeMessage {
+    color: #f4d47c;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .welcomeMessage h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+  
+  .welcomeMessage p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .buttonContainer {
+    margin-top: 2rem;
+  }
+  
+  .buttonContainer button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4a90e2; /* Adjust if necessary */
+    border-radius: 5px;
+  }
+  
